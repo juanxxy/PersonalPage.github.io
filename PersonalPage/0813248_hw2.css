@@ -1,0 +1,185 @@
+/* # Resume
+--------------------------------------------------------------*/
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #444444;
+  
+}
+
+
+.navbar li {
+  position: relative;
+  padding: 5px 0 5px 0;
+} 
+
+.navbar a {
+  color: #888888;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #fffff0;
+  background-color: #084663;
+  border-radius: 5px;
+}
+
+.about .about-title {
+ 
+  font-size: 35px;
+  padding: 5px;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #899499;
+}
+.about .about-item h4 {
+  border-radius: 15px;
+  font-size: 15px;
+  background: 	#899499;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #E5E4E2;
+} 
+.about .about-item p {
+  border-radius: 15px;
+  font-size: 15px;
+  background: 		#E5E4E2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #899499;
+} 
+
+.about .about-item h5 {
+  border-radius: 15px;
+  font-size: 15px;
+  background: 		#899499;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 750;
+  margin-bottom: 30px;
+  color: #E5E4E2;
+}
+
+.about .about-item ul {
+  border-radius: 15px;
+  font-size: 15px;
+  background: 		#E5E4E2;
+  padding: 20px 30px 20px 30px;
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #899499;
+}
+
+.resume .resume-title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #222222;
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 3px solid #7393B3;
+  position: relative;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #191970;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5 {
+  border-radius: 15px;
+  font-size: 15px;
+  background: 	#A7C7E7;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #7393B3;
+}
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 3px solid #7393B3;
+}
+
+.resume ul h4 {
+    border-radius: 15px;
+    font-size: 15px;
+    background: 	#A7C7E7;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #7393B3;
+  }
+
+  .Courses .card-text h3 {
+    border-radius: 15px;
+    font-size: 15px;
+    background: 	#A7C7E7;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #7393B3;
+  }
+
+  .Courses .card-text:hover h3 {
+    background: 	#191970;
+    color: #E5E4E2;
+  }
+
+  #footer .social-links a {
+    color: #fffff0;
+    padding-left: 6px;
+    display: inline-block;
+    line-height: 0px;
+    transition: 0.3s;
+    font-size: 16px;
+  }
+  #footer .social-links a:hover {
+    color: #084663;
+    padding-left: 6px;
+    display: inline-block;
+    line-height: 0px;
+    transition: 0.3s;
+    font-size: 16px;
+  }
+
+  #footer {
+    background: #7393B3;
+    padding: 40px 0;
+    color: #084663;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .footer .social-links i {
+    color: #fffff0;
+}
+
